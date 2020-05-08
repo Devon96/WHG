@@ -1,0 +1,40 @@
+#game_area{
+    border: 2px solid;
+    width: 1200px;
+    height: 400px;
+    background-color: #bbbbbb;
+    margin: 5px auto;
+    position: relative;
+}
+#main{
+    width: 1200px;
+    margin: 50px auto;
+}
+#gomb{
+    width: 100px;
+    height: 50px;
+}
+#wintext{
+    text-align: center;
+    font-size: 100px;
+    font-family: Calibri;
+    color: white;
+    font-weight: bold;
+}
+.nev{
+    margin: 10px auto;
+    width: 400px;
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+h1{
+    margin: 10px auto;
+}
+
+.rekordGomb{
+    width: 150px;
+    margin: 0 auto;
+    height: 30px;
+}
