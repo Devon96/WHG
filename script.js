@@ -14,7 +14,7 @@ $(document).ready(function () {
     game_area = $('#game_area');
 
     $(window).on('keydown', moveKarakter);
-    setInterval(checkCollision, 20000);
+    setInterval(checkCollision, 1);
     myaudio = new Audio('music.mp3');
     myaudio.loop = true;
     coinSound = new Audio('coinSound.mp3');
